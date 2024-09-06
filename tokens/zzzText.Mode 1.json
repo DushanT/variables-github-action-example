@@ -1,0 +1,136 @@
+{
+  "input": {
+    "password": {
+      "placeholder": {
+        "$type": "string",
+        "$value": " ",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "typing": {
+        "$type": "string",
+        "$value": "•••••|",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "filled": {
+        "$type": "string",
+        "$value": "•••••••••••",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "text": {
+      "placeholder": {
+        "$type": "string",
+        "$value": "Placeholder",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "typing": {
+        "$type": "string",
+        "$value": "EP123|",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "filled": {
+        "$type": "string",
+        "$value": "EP123456789",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "number": {
+      "placeholder": {
+        "$type": "string",
+        "$value": "0",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "typing": {
+        "$type": "string",
+        "$value": "12345|",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "filled": {
+        "$type": "string",
+        "$value": "123456789",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    }
+  }
+}
