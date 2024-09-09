@@ -78,6 +78,7 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
 
         Object.assign(obj, token)
       } catch (e) {
+        console.log('Fix this variable:', variable, 'with this mode: ', mode.modeId)
         console.log(e)
       }
     })
