@@ -2288,7 +2288,24 @@
       }
     }
   },
-  "history-default-spacing-vertical": {},
+  "history-default-spacing-vertical": {
+    "$type": "number",
+    "$value": "{spacing-s}",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "TEXT_CONTENT",
+          "CORNER_RADIUS",
+          "WIDTH_HEIGHT",
+          "GAP",
+          "FONT_VARIATIONS"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  },
   "history-compact-padding-vertical": {
     "$type": "number",
     "$value": "{spacing-s}",
@@ -2353,7 +2370,24 @@
       }
     }
   },
-  "history-compact-spacing-vertical": {},
+  "history-compact-spacing-vertical": {
+    "$type": "number",
+    "$value": "{spacing-s}",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "TEXT_CONTENT",
+          "CORNER_RADIUS",
+          "WIDTH_HEIGHT",
+          "GAP",
+          "FONT_VARIATIONS"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  },
   "history-activity-panel-spacing-horizontal": {
     "$type": "number",
     "$value": "{spacing-s}",
@@ -2507,8 +2541,34 @@
       }
     }
   },
-  "app-switcher-padding-vertical": {},
-  "app-switcher-padding-horizontal": {},
+  "app-switcher-padding-vertical": {
+    "$type": "number",
+    "$value": "{spacing-xs}",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "GAP"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  },
+  "app-switcher-padding-horizontal": {
+    "$type": "number",
+    "$value": "{spacing-xs}",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "GAP"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  },
   "drawer-height": {
     "$type": "number",
     "$value": 30,

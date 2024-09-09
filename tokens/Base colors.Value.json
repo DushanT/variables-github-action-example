@@ -1,7 +1,7 @@
 {
   "color-red-50": {
     "$type": "color",
-    "$value": "#ffebff",
+    "$value": "#ffebee",
     "$description": "",
     "$extensions": {
       "com.figma": {

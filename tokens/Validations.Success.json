@@ -105,7 +105,20 @@
   },
   "checkbox": {
     "unchecked": {
-      "color-bg-boxes": {},
+      "color-bg-boxes": {
+        "$type": "color",
+        "$value": "{semantic.color-bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
       "color-border-boxes": {
         "$type": "color",
         "$value": "{component.signal.color-signal-success-border}",
@@ -120,10 +133,36 @@
           }
         }
       },
-      "color-fg-boxes": {}
+      "color-fg-boxes": {
+        "$type": "color",
+        "$value": "{semantic.color-bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
     },
     "hover": {
-      "color-bg-boxes-hover": {},
+      "color-bg-boxes-hover": {
+        "$type": "color",
+        "$value": "{semantic.color-bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
       "color-border-boxes-hover": {
         "$type": "color",
         "$value": "{component.signal.color-signal-success-border}",
@@ -138,7 +177,20 @@
           }
         }
       },
-      "color-fg-boxes-hover": {}
+      "color-fg-boxes-hover": {
+        "$type": "color",
+        "$value": "{semantic.color-bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
     },
     "checked&mixed": {
       "color-bg-boxes-selected": {
@@ -169,7 +221,20 @@
           }
         }
       },
-      "color-fg-boxes-selected": {}
+      "color-fg-boxes-selected": {
+        "$type": "color",
+        "$value": "{semantic.color-bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
     }
   },
   "dialog": {
